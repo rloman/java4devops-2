@@ -15,13 +15,11 @@ public class Decision {
         }
         System.out.println(a / b);
 
-        if(a>b) {
+        if (a > b) {
             System.out.println("Ja");
-        }
-        else if(a != 0) {
+        } else if (a != 0) {
 
-        }
-        else {
+        } else {
 
         }
 
@@ -35,7 +33,7 @@ public class Decision {
 
          */
 
-        int age=7;
+        int age = 7;
         String label = null;
         switch (age) {
             case 0:
@@ -65,6 +63,10 @@ public class Decision {
         // => Hier spring ik heen na de break
         System.out.println(label);
 
+        int b2 = 5;
+        double c = Math.pow(b2, 2);
+
+        System.out.println(Math.sqrt(2));
 
 
     }
