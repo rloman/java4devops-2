@@ -16,21 +16,8 @@ public class StudentApplication {
 
         carla.setAge(22);
 
-
-
-
         System.out.println(carla.getName());
         System.out.println(carla.getBsn());
-
-
-
-
-
-        // TODO Explain imports
-        // TODO Casing class, field, method
-
-        // TODO Ctrl-Click en doorklikken naar de class (Student)
-
 
     }
 }

@@ -16,7 +16,7 @@ public class Arrays {
         int[] andereNumbers = new int[]{0,1,1,2,3,5,8,13,21,34,55,89,144};
 
         System.out.println(andereNumbers[12]);
-//        System.out.println(andereNumbers[13]);
+//        System.out.println(andereNumbers[13]); // gaat fout!, ArrayIndexOutOfBoundsException
 
         // analoog aan dit met Strings
 
@@ -34,8 +34,6 @@ public class Arrays {
 
         // declaratie    vulling met 0
         int[] numbers = new int[5];
-
-
 
         // hier vul ik de Array met kwadraten
         for(int i = 0;i<numbers.length;i++) {
